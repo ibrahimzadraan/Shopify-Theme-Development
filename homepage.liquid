@@ -1,0 +1,721 @@
+<!-- Main Container with Light Gray Background -->
+<div class="bg-[#F2F0F1]">
+  <div class="container">
+    <!-- Grid Layout for Responsive Design -->
+    <div
+      class="grid grid-cols-1 md:flex md:items-center md:justify-between md:gap-10"
+    >
+      <!-- Left Section: Text Content -->
+      <div class="md:w-1/2">
+        <!-- Main Heading -->
+        <h2
+          class="py-6 text-[32px] leading-[34px] text-black md:pb-8 md:text-[64px] md:leading-[64px]"
+        >
+          FIND CLOTHES THAT MATCHES YOUR STYLE
+        </h2>
+
+        <!-- Description Paragraph -->
+        <p class="pb-6 text-[14px] text-gray-500 md:pb-8 md:text-[16px]">
+          Browse through our diverse range of meticulously crafted garments,
+          designed to bring out your individuality and cater to your sense of
+          style.
+        </p>
+
+        <!-- Shop Now Button -->
+        <button
+          type="submit"
+          class="w-full rounded-full bg-black py-3 text-[16px] font-medium text-white focus:ring-2 focus:outline-none md:w-[200px] md:py-3 md:text-[16px]"
+        >
+          Shop Now
+        </button>
+
+        <!-- Statistics Section -->
+        <div
+          class="py-8 md:flex md:items-center md:justify-between md:gap-9 md:px-0 md:py-10"
+        >
+          <!-- First Stat: International Brands -->
+          <div
+            class="flex items-center justify-center md:flex md:flex-row md:justify-start md:gap-9"
+          >
+            <div class="px-8 text-center md:px-0 md:text-left">
+              <div class="text-[24px] font-bold md:text-[40px]">200+</div>
+              <p class="text-[12px] text-gray-500 md:text-[11px]">
+                International Brands
+              </p>
+            </div>
+
+            <!-- Vertical Divider -->
+            <div class="h-16 w-px bg-gray-200"></div>
+
+            <!-- Second Stat: High-Quality Products -->
+            <div class="px-8 text-center md:px-0 md:text-left">
+              <div class="text-[24px] font-bold md:text-[40px]">2,000+</div>
+              <p class="text-[12px] text-gray-500 md:text-[14px]">
+                High-Quality Products
+              </p>
+            </div>
+          </div>
+
+          <!-- Vertical Divider -->
+          <div class="h-16 w-px bg-gray-200"></div>
+
+          <!-- Third Stat: Happy Customers -->
+          <div class="-mt-10 text-center md:mt-0 md:px-0 md:text-left">
+            <div class="text-[24px] font-bold md:text-[40px]">30,000+</div>
+            <p class="text-[12px] text-gray-500 md:text-[14px]">
+              Happy Customers
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section: Image -->
+      <div class="flex justify-end md:w-1/2">
+        <img
+          src="{{ 'Rectangle.jpg' | asset_url }}"
+          alt="Logo"
+          class="w-[700px]"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Brands Section with Black Background -->
+<div class="bg-black py-16 md:py-10">
+  <div class="container mx-auto px-4">
+    <!-- Flex Layout for Brand Logos -->
+    <div
+      class="flex flex-col items-center justify-center md:flex-row md:items-center md:justify-around"
+    >
+      <!-- First Row of Brand Logos -->
+      <div
+        class="flex flex-row items-center gap-10 pb-10 md:flex-row md:gap-20 md:pb-0"
+      >
+        <div
+          class="font-serif text-xl font-bold tracking-wider text-white md:text-2xl"
+        >
+          <img
+            src="{{ 'Versace.png' | asset_url }}"
+            alt=""
+            class="h-[23px] md:h-[33px]"
+          />
+        </div>
+        <div>
+          <img
+            src="{{ 'Zara.png' | asset_url }}"
+            alt=""
+            class="h-[23px] md:h-[33px]"
+          />
+        </div>
+        <div>
+          <img
+            src="{{ 'Gucci.png' | asset_url }}"
+            alt=""
+            class="h-[23px] md:h-[33px]"
+          />
+        </div>
+      </div>
+
+      <!-- Second Row of Brand Logos -->
+      <div
+        class="flex flex-row items-center justify-center gap-10 md:flex-row md:gap-20"
+      >
+        <div>
+          <img
+            src="{{ 'Prada.png' | asset_url }}"
+            alt=""
+            class="h-[23px] md:h-[33px]"
+          />
+        </div>
+        <div>
+          <img
+            src="{{ 'Calvin.png' | asset_url }}"
+            alt=""
+            class="h-[23px] md:h-[33px]"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- New Arrivals Section -->
+<div class="container">
+  <div class="py-10 md:py-10">
+    <!-- Section Heading -->
+    <h1 class="pb-6 text-center text-[32px] text-black md:text-[48px]">
+      NEW ARRIVALS
+    </h1>
+
+    <!-- Grid Layout for New Arrival Products -->
+    <div class="grid grid-cols-2 gap-4 md:flex md:gap-8">
+      <!-- Product 1 -->
+      <div>
+        <img src="{{ 'image-1.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            T-SHIRT WITH TAPE DETAILS
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <p class="text-[16px] font-bold md:text-[25px]">$120</p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div>
+        <img src="{{ 'image-2.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            SKINNY FIT JEANS
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <div class="flex flex-row gap-4 md:flex md:flex-row md:gap-4">
+            <p class="text-[16px] font-bold md:text-[25px]">$240</p>
+            <p class="text-[16px] font-bold md:text-[25px] md:text-gray-500">
+              $260
+            </p>
+            <p
+              class="bg-[#FF33331A] px-4 py-1 text-[16px] text-red-500 read-only:rounded-full md:px-6 md:py-2 md:text-[16px]"
+            >
+              -20
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div>
+        <img src="{{ 'image-3.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            CHECKERED SHIRT
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <p class="text-[16px] font-bold md:text-[25px]">$180</p>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div>
+        <img src="{{ 'image-4.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            SLEEVE STRIPED T-SHIRT
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <div
+            class="flex flex-row items-center gap-4 md:flex md:flex-row md:gap-4"
+          >
+            <p class="text-[16px] font-bold md:text-[25px]">$130</p>
+            <p class="text-[16px] font-bold md:text-[25px] md:text-gray-500">
+              $160
+            </p>
+            <p
+              class="bg-[#FF33331A] px-4 py-1 text-[16px] text-red-500 read-only:rounded-full md:px-6 md:py-2 md:text-[16px]"
+            >
+              -30
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View All Button -->
+    <div class="flex justify-center pt-10 md:pt-10">
+      <button
+        class="rounded-full bg-black px-5 py-2 text-[16px] font-bold text-white md:px-16 md:py-3 md:text-[16px]"
+      >
+        View All
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Top Selling Products Section -->
+<div class="container">
+  <div class="py-10 md:py-10">
+    <!-- Section Heading -->
+    <h1 class="pb-6 text-center text-[32px] text-black md:text-[48px]">
+      TOP SELLING
+    </h1>
+
+    <!-- Grid Layout for Top Selling Products -->
+    <div class="grid grid-cols-2 gap-4 md:flex md:gap-8">
+      <!-- Product 1 -->
+      <div>
+        <img src="{{ 'image-5.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            T-SHIRT WITH TAPE DETAILS
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <p class="text-[16px] font-bold md:text-[25px]">$120</p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div>
+        <img src="{{ 'image-6.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            SKINNY FIT JEANS
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <div class="flex flex-row gap-4 md:flex md:flex-row md:gap-4">
+            <p class="text-[16px] font-bold md:text-[25px]">$240</p>
+            <p class="text-[16px] font-bold md:text-[25px] md:text-gray-500">
+              $260
+            </p>
+            <p
+              class="bg-[#FF33331A] px-4 py-1 text-[16px] text-red-500 read-only:rounded-full md:px-6 md:py-2 md:text-[16px]"
+            >
+              -20
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div>
+        <img src="{{ 'image-7.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            CHECKERED SHIRT
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <p class="text-[16px] font-bold md:text-[25px]">$180</p>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div>
+        <img src="{{ 'image-8.png' | asset_url }}" alt="" class="rounded-2xl" />
+        <div class="flex flex-col gap-2 pt-6">
+          <p
+            class="tracking-0 text-[12px] leading-[100%] font-bold md:text-[18px]"
+          >
+            SLEEVE STRIPED T-SHIRT
+          </p>
+          <!-- Star Rating SVG -->
+          <svg
+            width="150"
+            height="19"
+            viewBox="0 0 150 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- SVG Paths for Stars -->
+          </svg>
+          <div
+            class="flex flex-row items-center gap-4 md:flex md:flex-row md:gap-4"
+          >
+            <p class="text-[16px] font-bold md:text-[25px]">$130</p>
+            <p class="text-[16px] font-bold md:text-[25px] md:text-gray-500">
+              $160
+            </p>
+            <p
+              class="bg-[#FF33331A] px-4 py-1 text-[16px] text-red-500 read-only:rounded-full md:px-6 md:py-2 md:text-[16px]"
+            >
+              -30
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View All Button -->
+    <div class="flex justify-center pt-10 md:py-10">
+      <button
+        class="rounded-full bg-black px-5 py-2 text-[16px] font-bold text-white md:px-16 md:py-3 md:text-[16px]"
+      >
+        View All
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Browse by Dress Style Section (Visible on Desktop) -->
+<div class="container hidden md:block">
+  <div class="rounded-2xl bg-[#F0F0F0] py-10 md:py-10">
+    <!-- Section Heading -->
+    <h1
+      class="pb-6 text-center text-[32px] text-black md:text-center md:text-[48px]"
+    >
+      BROWSE BY <span>DRESS STYLE</span>
+    </h1>
+    <!-- Grid Layout for Dress Style Images -->
+    <div
+      class="grid grid-cols-4 items-center justify-center gap-4 md:flex md:flex-col md:gap-4"
+    >
+      <!-- First Row of Images -->
+      <div class="grid grid-cols-1 items-center gap-4 md:flex md:flex-row">
+        <div>
+          <img src="{{ 'image-9.png' | asset_url }}" alt="" />
+        </div>
+        <div>
+          <img src="{{ 'image-10.png' | asset_url }}" alt="" />
+        </div>
+      </div>
+      <!-- Second Row of Images -->
+      <div
+        class="grid grid-cols-1 items-center gap-4 md:flex md:flex-row md:gap-4"
+      >
+        <div>
+          <img src="{{ 'image-12.png' | asset_url }}" alt="" />
+        </div>
+        <div>
+          <img src="{{ 'image-11.png' | asset_url }}" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Browse by Dress Style Section (Visible on Mobile) -->
+<div class="container block md:hidden">
+  <div class="rounded-2xl bg-[#F0F0F0] py-10">
+    <!-- Section Heading -->
+    <h1 class="pb-6 text-center text-[32px] text-black">
+      BROWSE BY <span class="block md:hidden">DRESS STYLE</span>
+    </h1>
+    <!-- Grid Layout for Dress Style Images -->
+    <div class="grid grid-cols-1 items-center justify-center gap-4">
+      <!-- First Row of Images -->
+      <div class="grid grid-cols-1 items-center justify-center gap-4">
+        <div class="mx-auto">
+          <img src="{{ 'image-13.png' | asset_url }}" alt="" />
+        </div>
+        <div class="mx-auto">
+          <img src="{{ 'image-14.png' | asset_url }}" alt="" />
+        </div>
+      </div>
+      <!-- Second Row of Images -->
+      <div class="grid grid-cols-1 items-center justify-center gap-4">
+        <div class="mx-auto">
+          <img src="{{ 'image-15.png' | asset_url }}" alt="" />
+        </div>
+        <div class="mx-auto">
+          <img src="{{ 'image-16.png' | asset_url }}" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Our Happy Customers Section -->
+<div class="container">
+  <div class="py-10 md:py-10">
+    <!-- Section Heading and Navigation Arrows -->
+    <div class="flex flex-row gap-1 md:flex md:justify-between">
+      <h1 class="pb-6 text-[32px] text-black md:text-[48px]">
+        OUR HAPPY CUSTOMERS
+      </h1>
+      <!-- Navigation Arrows -->
+      <div
+        class="flex flex-row items-center gap-1 md:flex md:items-center md:gap-x-3"
+      >
+        <!-- Left Arrow -->
+        <div>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.70406 4.4541L2.95406 11.2041C2.84918 11.3086 2.76597 11.4328 2.70919 11.5696C2.6524 11.7063 2.62317 11.8529 2.62317 12.001C2.62317 12.149 2.6524 12.2957 2.70919 12.4324C2.76597 12.5691 2.84918 12.6933 2.95406 12.7979L9.70406 19.5479C9.91541 19.7592 10.2021 19.8779 10.5009 19.8779C10.7998 19.8779 11.0865 19.7592 11.2978 19.5479C11.5092 19.3365 11.6279 19.0499 11.6279 18.751C11.6279 18.4521 11.5092 18.1654 11.2978 17.9541L6.46875 13.125L20.25 13.125C20.5484 13.125 20.8345 13.0065 21.0455 12.7955C21.2565 12.5846 21.375 12.2984 21.375 12C21.375 11.7017 21.2565 11.4155 21.0455 11.2045C20.8345 10.9936 20.5484 10.875 20.25 10.875L6.46875 10.875L11.2987 6.04598C11.5101 5.83463 11.6288 5.54799 11.6288 5.2491C11.6288 4.95022 11.5101 4.66357 11.2987 4.45223C11.0874 4.24088 10.8008 4.12215 10.5019 4.12215C10.203 4.12215 9.91634 4.24088 9.705 4.45223L9.70406 4.4541Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <!-- Right Arrow -->
+        <div>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.2959 4.4541L21.0459 11.2041C21.1508 11.3086 21.234 11.4328 21.2908 11.5696C21.3476 11.7063 21.3768 11.8529 21.3768 12.001C21.3768 12.149 21.3476 12.2957 21.2908 12.4324C21.234 12.5691 21.1508 12.6933 21.0459 12.7979L14.2959 19.5479C14.0846 19.7592 13.7979 19.8779 13.4991 19.8779C13.2002 19.8779 12.9135 19.7592 12.7022 19.5479C12.4908 19.3365 12.3721 19.0499 12.3721 18.751C12.3721 18.4521 12.4908 18.1654 12.7022 17.9541L17.5313 13.125L3.75 13.125C3.45163 13.125 3.16548 13.0065 2.9545 12.7955C2.74353 12.5846 2.625 12.2984 2.625 12C2.625 11.7017 2.74353 11.4155 2.95451 11.2045C3.16548 10.9936 3.45163 10.875 3.75 10.875L17.5313 10.875L12.7013 6.04598C12.4899 5.83463 12.3712 5.54799 12.3712 5.2491C12.3712 4.95022 12.4899 4.66357 12.7013 4.45223C12.9126 4.24088 13.1992 4.12215 13.4981 4.12215C13.797 4.12215 14.0837 4.24088 14.295 4.45223L14.2959 4.4541Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Customer Reviews Section -->
+    <div class="flex flex-col gap-4 md:flex md:flex-row md:gap-4">
+      <!-- Review 1 -->
+      <div class="rounded-2xl border border-gray-200 p-4">
+        <!-- Star Rating -->
+        <div class="pb-3 md:pb-3">
+          <!-- SVG Paths for Stars -->
+          <svg
+            width="139"
+            height="23"
+            viewBox="0 0 139 23"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M40.3553 0L43.5537 6.8872L51.0922 7.80085L45.5305 12.971L46.9911 20.4229L40.3553 16.731L33.7195 20.4229L35.1801 12.971L29.6183 7.80085L37.1568 6.8872L40.3553 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M69.421 0L72.6195 6.8872L80.158 7.80085L74.5962 12.971L76.0568 20.4229L69.421 16.731L62.7852 20.4229L64.2458 12.971L58.6841 7.80085L66.2226 6.8872L69.421 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M98.4868 0L101.685 6.8872L109.224 7.80085L103.662 12.971L105.123 20.4229L98.4868 16.731L91.851 20.4229L93.3116 12.971L87.7498 7.80085L95.2883 6.8872L98.4868 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M127.553 0L130.751 6.8872L138.289 7.80085L132.728 12.971L134.188 20.4229L127.553 16.731L120.917 20.4229L122.377 12.971L116.816 7.80085L124.354 6.8872L127.553 0Z"
+              fill="#FFC633"
+            />
+          </svg>
+        </div>
+        <!-- Customer Name and Verified Icon -->
+        <div class="flex flex-row gap-2 pb-3 md:flex md:gap-2 md:pb-3">
+          <p class="text-[16px] font-bold md:text-[20px]">Sarah M.</p>
+          <!-- SVG Path for Verified Icon -->
+          <span>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2.8291C10.0716 2.8291 8.18657 3.40093 6.58319 4.47227C4.97982 5.54362 3.73013 7.06636 2.99218 8.84794C2.25422 10.6295 2.06114 12.5899 2.43735 14.4812C2.81355 16.3725 3.74215 18.1098 5.10571 19.4734C6.46928 20.837 8.20656 21.7656 10.0979 22.1418C11.9892 22.518 13.9496 22.3249 15.7312 21.5869C17.5127 20.849 19.0355 19.5993 20.1068 17.9959C21.1782 16.3925 21.75 14.5075 21.75 12.5791C21.7473 9.99408 20.7192 7.51571 18.8913 5.68783C17.0634 3.85994 14.585 2.83183 12 2.8291ZM16.2806 10.8597L11.0306 16.1097C10.961 16.1795 10.8783 16.2348 10.7872 16.2725C10.6962 16.3103 10.5986 16.3297 10.5 16.3297C10.4014 16.3297 10.3038 16.3103 10.2128 16.2725C10.1218 16.2348 10.039 16.1795 9.96938 16.1097L7.71938 13.8597C7.57865 13.719 7.49959 13.5281 7.49959 13.3291C7.49959 13.1301 7.57865 12.9392 7.71938 12.7985C7.86011 12.6577 8.05098 12.5787 8.25 12.5787C8.44903 12.5787 8.6399 12.6577 8.78063 12.7985L10.5 14.5188L15.2194 9.79848C15.2891 9.72879 15.3718 9.67352 15.4628 9.63581C15.5539 9.59809 15.6515 9.57868 15.75 9.57868C15.8486 9.57868 15.9461 9.59809 16.0372 9.63581C16.1282 9.67352 16.2109 9.72879 16.2806 9.79848C16.3503 9.86816 16.4056 9.95088 16.4433 10.0419C16.481 10.133 16.5004 10.2306 16.5004 10.3291C16.5004 10.4276 16.481 10.5252 16.4433 10.6163C16.4056 10.7073 16.3503 10.79 16.2806 10.8597Z"
+                fill="#01AB31"
+              />
+            </svg>
+          </span>
+        </div>
+        <!-- Customer Review Text -->
+        <div>
+          <p class="text-[14px] text-gray-400 md:text-[14px]">
+            "I'm blown away by the quality and style of the clothes I received
+            from Shop.co. From casual wear to elegant dresses, every piece I've
+            bought has exceeded my expectations.”
+          </p>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="rounded-2xl border border-gray-200 p-4">
+        <!-- Star Rating -->
+        <div class="pb-3 md:pb-3">
+          <!-- SVG Paths for Stars -->
+          <svg
+            width="139"
+            height="23"
+            viewBox="0 0 139 23"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M40.3553 0L43.5537 6.8872L51.0922 7.80085L45.5305 12.971L46.9911 20.4229L40.3553 16.731L33.7195 20.4229L35.1801 12.971L29.6183 7.80085L37.1568 6.8872L40.3553 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M69.421 0L72.6195 6.8872L80.158 7.80085L74.5962 12.971L76.0568 20.4229L69.421 16.731L62.7852 20.4229L64.2458 12.971L58.6841 7.80085L66.2226 6.8872L69.421 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M98.4868 0L101.685 6.8872L109.224 7.80085L103.662 12.971L105.123 20.4229L98.4868 16.731L91.851 20.4229L93.3116 12.971L87.7498 7.80085L95.2883 6.8872L98.4868 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M127.553 0L130.751 6.8872L138.289 7.80085L132.728 12.971L134.188 20.4229L127.553 16.731L120.917 20.4229L122.377 12.971L116.816 7.80085L124.354 6.8872L127.553 0Z"
+              fill="#FFC633"
+            />
+          </svg>
+        </div>
+        <!-- Customer Name and Verified Icon -->
+        <div class="flex flex-row gap-2 pb-3 md:flex md:gap-2 md:pb-3">
+          <p class="text-[16px] font-bold md:text-[20px]">Alex K.</p>
+          <!-- SVG Path for Verified Icon -->
+          <span>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2.8291C10.0716 2.8291 8.18657 3.40093 6.58319 4.47227C4.97982 5.54362 3.73013 7.06636 2.99218 8.84794C2.25422 10.6295 2.06114 12.5899 2.43735 14.4812C2.81355 16.3725 3.74215 18.1098 5.10571 19.4734C6.46928 20.837 8.20656 21.7656 10.0979 22.1418C11.9892 22.518 13.9496 22.3249 15.7312 21.5869C17.5127 20.849 19.0355 19.5993 20.1068 17.9959C21.1782 16.3925 21.75 14.5075 21.75 12.5791C21.7473 9.99408 20.7192 7.51571 18.8913 5.68783C17.0634 3.85994 14.585 2.83183 12 2.8291ZM16.2806 10.8597L11.0306 16.1097C10.961 16.1795 10.8783 16.2348 10.7872 16.2725C10.6962 16.3103 10.5986 16.3297 10.5 16.3297C10.4014 16.3297 10.3038 16.3103 10.2128 16.2725C10.1218 16.2348 10.039 16.1795 9.96938 16.1097L7.71938 13.8597C7.57865 13.719 7.49959 13.5281 7.49959 13.3291C7.49959 13.1301 7.57865 12.9392 7.71938 12.7985C7.86011 12.6577 8.05098 12.5787 8.25 12.5787C8.44903 12.5787 8.6399 12.6577 8.78063 12.7985L10.5 14.5188L15.2194 9.79848C15.2891 9.72879 15.3718 9.67352 15.4628 9.63581C15.5539 9.59809 15.6515 9.57868 15.75 9.57868C15.8486 9.57868 15.9461 9.59809 16.0372 9.63581C16.1282 9.67352 16.2109 9.72879 16.2806 9.79848C16.3503 9.86816 16.4056 9.95088 16.4433 10.0419C16.481 10.133 16.5004 10.2306 16.5004 10.3291C16.5004 10.4276 16.481 10.5252 16.4433 10.6163C16.4056 10.7073 16.3503 10.79 16.2806 10.8597Z"
+                fill="#01AB31"
+              />
+            </svg>
+          </span>
+        </div>
+        <!-- Customer Review Text -->
+        <div>
+          <p class="text-[14px] text-gray-400 md:text-[14px]">
+            "Finding clothes that align with my personal style used to be a
+            challenge until I discovered Shop.co. The range of options they
+            offer is truly remarkable, catering to a variety of tastes and
+            occasions.”
+          </p>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="rounded-2xl border border-gray-200 p-4">
+        <!-- Star Rating -->
+        <div class="pb-3 md:pb-3">
+          <!-- SVG Paths for Stars -->
+          <svg
+            width="139"
+            height="23"
+            viewBox="0 0 139 23"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M40.3553 0L43.5537 6.8872L51.0922 7.80085L45.5305 12.971L46.9911 20.4229L40.3553 16.731L33.7195 20.4229L35.1801 12.971L29.6183 7.80085L37.1568 6.8872L40.3553 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M69.421 0L72.6195 6.8872L80.158 7.80085L74.5962 12.971L76.0568 20.4229L69.421 16.731L62.7852 20.4229L64.2458 12.971L58.6841 7.80085L66.2226 6.8872L69.421 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M98.4868 0L101.685 6.8872L109.224 7.80085L103.662 12.971L105.123 20.4229L98.4868 16.731L91.851 20.4229L93.3116 12.971L87.7498 7.80085L95.2883 6.8872L98.4868 0Z"
+              fill="#FFC633"
+            />
+            <path
+              d="M127.553 0L130.751 6.8872L138.289 7.80085L132.728 12.971L134.188 20.4229L127.553 16.731L120.917 20.4229L122.377 12.971L116.816 7.80085L124.354 6.8872L127.553 0Z"
+              fill="#FFC633"
+            />
+          </svg>
+        </div>
+        <!-- Customer Name and Verified Icon -->
+        <div class="flex flex-row gap-2 pb-3 md:flex md:gap-2 md:pb-3">
+          <p class="text-[16px] font-bold md:text-[20px]">James L.</p>
+          <span>
+            <!-- SVG Path for Verified Icon -->
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2.8291C10.0716 2.8291 8.18657 3.40093 6.58319 4.47227C4.97982 5.54362 3.73013 7.06636 2.99218 8.84794C2.25422 10.6295 2.06114 12.5899 2.43735 14.4812C2.81355 16.3725 3.74215 18.1098 5.10571 19.4734C6.46928 20.837 8.20656 21.7656 10.0979 22.1418C11.9892 22.518 13.9496 22.3249 15.7312 21.5869C17.5127 20.849 19.0355 19.5993 20.1068 17.9959C21.1782 16.3925 21.75 14.5075 21.75 12.5791C21.7473 9.99408 20.7192 7.51571 18.8913 5.68783C17.0634 3.85994 14.585 2.83183 12 2.8291ZM16.2806 10.8597L11.0306 16.1097C10.961 16.1795 10.8783 16.2348 10.7872 16.2725C10.6962 16.3103 10.5986 16.3297 10.5 16.3297C10.4014 16.3297 10.3038 16.3103 10.2128 16.2725C10.1218 16.2348 10.039 16.1795 9.96938 16.1097L7.71938 13.8597C7.57865 13.719 7.49959 13.5281 7.49959 13.3291C7.49959 13.1301 7.57865 12.9392 7.71938 12.7985C7.86011 12.6577 8.05098 12.5787 8.25 12.5787C8.44903 12.5787 8.6399 12.6577 8.78063 12.7985L10.5 14.5188L15.2194 9.79848C15.2891 9.72879 15.3718 9.67352 15.4628 9.63581C15.5539 9.59809 15.6515 9.57868 15.75 9.57868C15.8486 9.57868 15.9461 9.59809 16.0372 9.63581C16.1282 9.67352 16.2109 9.72879 16.2806 9.79848C16.3503 9.86816 16.4056 9.95088 16.4433 10.0419C16.481 10.133 16.5004 10.2306 16.5004 10.3291C16.5004 10.4276 16.481 10.5252 16.4433 10.6163C16.4056 10.7073 16.3503 10.79 16.2806 10.8597Z"
+                fill="#01AB31"
+              />
+            </svg>
+          </span>
+        </div>
+        <!-- Customer Review Text -->
+        <div>
+          <p class="text-[14px] text-gray-400 md:text-[14px]">
+            "As someone who's always on the lookout for unique fashion pieces,
+            I'm thrilled to have stumbled upon Shop.co. The selection of clothes
+            is not only diverse but also on-point with the latest trends.”
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
