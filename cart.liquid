@@ -1,0 +1,391 @@
+<div class="py-10 md:py-10">
+  <div class="container">
+    <!-- Mene  -->
+    <ul class="flex gap-2 md:flex md:gap-5">
+      <li class="flex md:flex">
+        <a
+          href="#"
+          class="flex items-center gap-1 text-[14px] text-[#666666] md:flex md:items-center md:gap-2 md:text-[16px] md:text-[#666666]"
+          >Home
+          <div>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.53073 2.46937L11.5307 7.46937C11.6007 7.53905 11.6561 7.62184 11.694 7.71301C11.7318 7.80417 11.7513 7.90191 11.7513 8.00062C11.7513 8.09933 11.7318 8.19707 11.694 8.28824C11.6561 8.3794 11.6007 8.46219 11.5307 8.53187L6.53073 13.5319C6.38984 13.6728 6.19874 13.7519 5.99948 13.7519C5.80023 13.7519 5.60913 13.6728 5.46823 13.5319C5.32734 13.391 5.24818 13.1999 5.24818 13.0006C5.24818 12.8014 5.32734 12.6103 5.46823 12.4694L9.93761 8L5.46761 3.53062C5.32671 3.38973 5.24756 3.19863 5.24756 2.99937C5.24756 2.80011 5.32671 2.60902 5.46761 2.46812C5.60851 2.32723 5.7996 2.24807 5.99886 2.24807C6.19812 2.24807 6.38921 2.32723 6.53011 2.46812L6.53073 2.46937Z"
+                fill="black"
+                fill-opacity="0.6"
+              />
+            </svg></div
+        ></a>
+      </li>
+      <li><a href="#">Cart</a></li>
+    </ul>
+
+    <div class="grid grid-rows-1 gap-4 md:flex md:gap-8">
+      <div class="md:w-3/5">
+        <div>
+          <h1 class="py-7 text-[32px] md:text-[40px]">Your cart</h1>
+        </div>
+        <div class="grid grid-rows-3 rounded-3xl border border-[#E5E5E5] px-6">
+          <!-- product-1 -->
+          <div
+            class="border-b-1 border-[#E5E5E5] py-6 md:flex md:justify-between"
+          >
+            <div class="grid grid-rows-1 gap-4 md:flex md:gap-4">
+              <div>
+                <img
+                  class="w-full rounded-2xl md:w-auto"
+                  src="{{ 'product-image-9.png' | asset_url }}"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-col gap-3 md:flex md:flex-col md:gap-1.5">
+                <p class="text-[20px] font-bold md:text-[20px]">
+                  Gradient Graphic T-shirt
+                </p>
+                <p class="text-[14px] md:text-[14px]">
+                  Size:
+                  <span class="text-black opacity-60"> Large</span>
+                </p>
+                <p class="text-[14px] md:text-[14px]">
+                  Color:
+                  <span class="text-black opacity-60"> White</span>
+                </p>
+                <span class="text-[24px] font-bold md:text-[24px]">$145</span>
+              </div>
+            </div>
+
+            <div
+              class="hidden md:block md:flex md:flex-col md:items-end md:justify-between md:gap-5"
+            >
+              <div>
+                <svg
+                  width="18"
+                  height="20"
+                  viewBox="0 0 18 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.25 3.5H13.5V2.75C13.5 2.15326 13.2629 1.58097 12.841 1.15901C12.419 0.737053 11.8467 0.5 11.25 0.5H6.75C6.15326 0.5 5.58097 0.737053 5.15901 1.15901C4.73705 1.58097 4.5 2.15326 4.5 2.75V3.5H0.75C0.551088 3.5 0.360322 3.57902 0.21967 3.71967C0.0790178 3.86032 0 4.05109 0 4.25C0 4.44891 0.0790178 4.63968 0.21967 4.78033C0.360322 4.92098 0.551088 5 0.75 5H1.5V18.5C1.5 18.8978 1.65804 19.2794 1.93934 19.5607C2.22064 19.842 2.60218 20 3 20H15C15.3978 20 15.7794 19.842 16.0607 19.5607C16.342 19.2794 16.5 18.8978 16.5 18.5V5H17.25C17.4489 5 17.6397 4.92098 17.7803 4.78033C17.921 4.63968 18 4.44891 18 4.25C18 4.05109 17.921 3.86032 17.7803 3.71967C17.6397 3.57902 17.4489 3.5 17.25 3.5ZM7.5 14.75C7.5 14.9489 7.42098 15.1397 7.28033 15.2803C7.13968 15.421 6.94891 15.5 6.75 15.5C6.55109 15.5 6.36032 15.421 6.21967 15.2803C6.07902 15.1397 6 14.9489 6 14.75V8.75C6 8.55109 6.07902 8.36032 6.21967 8.21967C6.36032 8.07902 6.55109 8 6.75 8C6.94891 8 7.13968 8.07902 7.28033 8.21967C7.42098 8.36032 7.5 8.55109 7.5 8.75V14.75ZM12 14.75C12 14.9489 11.921 15.1397 11.7803 15.2803C11.6397 15.421 11.4489 15.5 11.25 15.5C11.0511 15.5 10.8603 15.421 10.7197 15.2803C10.579 15.1397 10.5 14.9489 10.5 14.75V8.75C10.5 8.55109 10.579 8.36032 10.7197 8.21967C10.8603 8.07902 11.0511 8 11.25 8C11.4489 8 11.6397 8.07902 11.7803 8.21967C11.921 8.36032 12 8.55109 12 8.75V14.75ZM12 3.5H6V2.75C6 2.55109 6.07902 2.36032 6.21967 2.21967C6.36032 2.07902 6.55109 2 6.75 2H11.25C11.4489 2 11.6397 2.07902 11.7803 2.21967C11.921 2.36032 12 2.55109 12 2.75V3.5Z"
+                    fill="#FF3333"
+                  />
+                </svg>
+              </div>
+
+              <!-- Quantity Selector -->
+              <div class="flex items-center rounded-full bg-gray-100">
+                <button
+                  class="flex h-12 w-12 items-center justify-center text-gray-600 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </button>
+                <span class="w-6 text-center font-medium">1</span>
+                <button
+                  class="flex h-12 w-12 items-center justify-center text-gray-600 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4v16m8-8H4"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- product-2 -->
+          <div
+            class="border-b-1 border-[#E5E5E5] py-6 md:flex md:justify-between"
+          >
+            <div class="grid grid-rows-1 gap-4 md:flex md:gap-4">
+              <div>
+                <img
+                  class="w-full rounded-2xl md:w-auto"
+                  src="{{ 'product-image-10.png' | asset_url }}"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-col gap-3 md:flex md:flex-col md:gap-1.5">
+                <p class="text-[20px] font-bold md:text-[20px]">
+                  Gradient Graphic T-shirt
+                </p>
+                <p class="text-[14px] md:text-[14px]">
+                  Size:
+                  <span class="text-black opacity-60"> Large</span>
+                </p>
+                <p class="text-[14px] md:text-[14px]">
+                  Color:
+                  <span class="text-black opacity-60"> White</span>
+                </p>
+                <span class="text-[24px] font-bold md:text-[24px]">$145</span>
+              </div>
+            </div>
+
+            <div
+              class="hidden md:block md:flex md:flex-col md:items-end md:justify-between md:gap-5"
+            >
+              <div>
+                <svg
+                  width="18"
+                  height="20"
+                  viewBox="0 0 18 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.25 3.5H13.5V2.75C13.5 2.15326 13.2629 1.58097 12.841 1.15901C12.419 0.737053 11.8467 0.5 11.25 0.5H6.75C6.15326 0.5 5.58097 0.737053 5.15901 1.15901C4.73705 1.58097 4.5 2.15326 4.5 2.75V3.5H0.75C0.551088 3.5 0.360322 3.57902 0.21967 3.71967C0.0790178 3.86032 0 4.05109 0 4.25C0 4.44891 0.0790178 4.63968 0.21967 4.78033C0.360322 4.92098 0.551088 5 0.75 5H1.5V18.5C1.5 18.8978 1.65804 19.2794 1.93934 19.5607C2.22064 19.842 2.60218 20 3 20H15C15.3978 20 15.7794 19.842 16.0607 19.5607C16.342 19.2794 16.5 18.8978 16.5 18.5V5H17.25C17.4489 5 17.6397 4.92098 17.7803 4.78033C17.921 4.63968 18 4.44891 18 4.25C18 4.05109 17.921 3.86032 17.7803 3.71967C17.6397 3.57902 17.4489 3.5 17.25 3.5ZM7.5 14.75C7.5 14.9489 7.42098 15.1397 7.28033 15.2803C7.13968 15.421 6.94891 15.5 6.75 15.5C6.55109 15.5 6.36032 15.421 6.21967 15.2803C6.07902 15.1397 6 14.9489 6 14.75V8.75C6 8.55109 6.07902 8.36032 6.21967 8.21967C6.36032 8.07902 6.55109 8 6.75 8C6.94891 8 7.13968 8.07902 7.28033 8.21967C7.42098 8.36032 7.5 8.55109 7.5 8.75V14.75ZM12 14.75C12 14.9489 11.921 15.1397 11.7803 15.2803C11.6397 15.421 11.4489 15.5 11.25 15.5C11.0511 15.5 10.8603 15.421 10.7197 15.2803C10.579 15.1397 10.5 14.9489 10.5 14.75V8.75C10.5 8.55109 10.579 8.36032 10.7197 8.21967C10.8603 8.07902 11.0511 8 11.25 8C11.4489 8 11.6397 8.07902 11.7803 8.21967C11.921 8.36032 12 8.55109 12 8.75V14.75ZM12 3.5H6V2.75C6 2.55109 6.07902 2.36032 6.21967 2.21967C6.36032 2.07902 6.55109 2 6.75 2H11.25C11.4489 2 11.6397 2.07902 11.7803 2.21967C11.921 2.36032 12 2.55109 12 2.75V3.5Z"
+                    fill="#FF3333"
+                  />
+                </svg>
+              </div>
+
+              <!-- Quantity Selector -->
+              <div class="flex items-center rounded-full bg-gray-100">
+                <button
+                  class="flex h-12 w-12 items-center justify-center text-gray-600 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </button>
+                <span class="w-6 text-center font-medium">1</span>
+                <button
+                  class="flex h-12 w-12 items-center justify-center text-gray-600 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4v16m8-8H4"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- product-3 -->
+          <div class="py-6 md:flex md:justify-between">
+            <div class="grid grid-rows-1 gap-4 md:flex md:gap-4">
+              <div>
+                <img
+                  class="w-full rounded-2xl md:w-auto"
+                  src="{{ 'product-image-11.png' | asset_url }}"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-col gap-3 md:flex md:flex-col md:gap-1.5">
+                <p class="text-[20px] font-bold md:text-[20px]">
+                  Gradient Graphic T-shirt
+                </p>
+                <p class="text-[14px] md:text-[14px]">
+                  Size:
+                  <span class="text-black opacity-60"> Large</span>
+                </p>
+                <p class="text-[14px] md:text-[14px]">
+                  Color:
+                  <span class="text-black opacity-60"> White</span>
+                </p>
+                <span class="text-[24px] font-bold md:text-[24px]">$145</span>
+              </div>
+            </div>
+
+            <div
+              class="hidden md:block md:flex md:flex-col md:items-end md:justify-between md:gap-5"
+            >
+              <div>
+                <svg
+                  width="18"
+                  height="20"
+                  viewBox="0 0 18 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.25 3.5H13.5V2.75C13.5 2.15326 13.2629 1.58097 12.841 1.15901C12.419 0.737053 11.8467 0.5 11.25 0.5H6.75C6.15326 0.5 5.58097 0.737053 5.15901 1.15901C4.73705 1.58097 4.5 2.15326 4.5 2.75V3.5H0.75C0.551088 3.5 0.360322 3.57902 0.21967 3.71967C0.0790178 3.86032 0 4.05109 0 4.25C0 4.44891 0.0790178 4.63968 0.21967 4.78033C0.360322 4.92098 0.551088 5 0.75 5H1.5V18.5C1.5 18.8978 1.65804 19.2794 1.93934 19.5607C2.22064 19.842 2.60218 20 3 20H15C15.3978 20 15.7794 19.842 16.0607 19.5607C16.342 19.2794 16.5 18.8978 16.5 18.5V5H17.25C17.4489 5 17.6397 4.92098 17.7803 4.78033C17.921 4.63968 18 4.44891 18 4.25C18 4.05109 17.921 3.86032 17.7803 3.71967C17.6397 3.57902 17.4489 3.5 17.25 3.5ZM7.5 14.75C7.5 14.9489 7.42098 15.1397 7.28033 15.2803C7.13968 15.421 6.94891 15.5 6.75 15.5C6.55109 15.5 6.36032 15.421 6.21967 15.2803C6.07902 15.1397 6 14.9489 6 14.75V8.75C6 8.55109 6.07902 8.36032 6.21967 8.21967C6.36032 8.07902 6.55109 8 6.75 8C6.94891 8 7.13968 8.07902 7.28033 8.21967C7.42098 8.36032 7.5 8.55109 7.5 8.75V14.75ZM12 14.75C12 14.9489 11.921 15.1397 11.7803 15.2803C11.6397 15.421 11.4489 15.5 11.25 15.5C11.0511 15.5 10.8603 15.421 10.7197 15.2803C10.579 15.1397 10.5 14.9489 10.5 14.75V8.75C10.5 8.55109 10.579 8.36032 10.7197 8.21967C10.8603 8.07902 11.0511 8 11.25 8C11.4489 8 11.6397 8.07902 11.7803 8.21967C11.921 8.36032 12 8.55109 12 8.75V14.75ZM12 3.5H6V2.75C6 2.55109 6.07902 2.36032 6.21967 2.21967C6.36032 2.07902 6.55109 2 6.75 2H11.25C11.4489 2 11.6397 2.07902 11.7803 2.21967C11.921 2.36032 12 2.55109 12 2.75V3.5Z"
+                    fill="#FF3333"
+                  />
+                </svg>
+              </div>
+
+              <!-- Quantity Selector -->
+              <div class="flex items-center rounded-full bg-gray-100">
+                <button
+                  class="flex h-12 w-12 items-center justify-center text-gray-600 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </button>
+                <span class="w-6 text-center font-medium">1</span>
+                <button
+                  class="flex h-12 w-12 items-center justify-center text-gray-600 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4v16m8-8H4"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="md:mt-28 md:w-2/5">
+        <div class="rounded-3xl border border-[#E5E5E5] bg-white p-6">
+          <p class="pb-6 text-[20px] font-bold md:text-[24px]">Order Summary</p>
+          <div class="space-y-3">
+            <div class="flex justify-between">
+              <span>Subtotal</span>
+              <span>$565</span>
+            </div>
+            <div class="flex justify-between text-red-500">
+              <span>Discount (-20%)</span>
+              <span>-$113</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Delivery Fee</span>
+              <span>$15</span>
+            </div>
+          </div>
+          <div class="mt-4 border-t border-gray-200 pt-4">
+            <div class="flex justify-between font-bold">
+              <span>Total</span>
+              <span>$467</span>
+            </div>
+          </div>
+
+          <div class="flex items-center bg-gray-50 pt-6">
+            <div class="w-full max-w-md space-y-4">
+              <!-- Promo Code Input -->
+              <div class="flex gap-2">
+                <div class="relative flex-grow rounded-full">
+                  <div class="relative">
+                    <div
+                      class="pointer-events-none absolute inset-y-0 left-3 flex items-center"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="mr-2 h-5 w-5 text-gray-400"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
+                        />
+                      </svg>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Enter promo code"
+                      class="w-[200px] rounded-full bg-gray-200 py-3 pr-4 pl-10 text-sm text-gray-800 focus:ring-2 focus:outline-none md:w-[320px] md:py-3 md:text-base"
+                      required
+                    />
+                  </div>
+                </div>
+                <button
+                  class="rounded-full bg-black px-6 py-1.5 font-medium text-white"
+                >
+                  Apply
+                </button>
+              </div>
+
+              <!-- Checkout Button -->
+              <button
+                class="flex w-full items-center justify-center rounded-full bg-black px-6 py-4 font-medium text-white"
+              >
+                Go to Checkout
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ml-2 h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
